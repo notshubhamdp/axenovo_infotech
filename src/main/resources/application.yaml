@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: infotech
+  datasource:
+    url: jdbc:postgresql://localhost:5432/axenovo_db?createDatabaseIfNotExist=true
+    username: infotech_user
+    password: infotech_password
+    driver-class-name: org.postgresql.Driver
+    
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+
+server:
+  port: 9095
