@@ -3,8 +3,8 @@ spring:
     name: infotech
   datasource:
     url: jdbc:postgresql://localhost:5432/axenovo_db?createDatabaseIfNotExist=true
-    username: infotech_user
-    password: infotech_password
+    username: postgres
+    password: admin
     driver-class-name: org.postgresql.Driver
     
   jpa:
